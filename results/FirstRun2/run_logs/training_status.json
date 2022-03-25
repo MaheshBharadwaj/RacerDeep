@@ -1,0 +1,65 @@
+{
+    "MoveSomewhere": {
+        "checkpoints": [
+            {
+                "steps": 7006064,
+                "file_path": "results\\FirstRun2\\MoveSomewhere\\MoveSomewhere-7006064.onnx",
+                "reward": 19.90519790612161,
+                "creation_time": 1647888988.0557497,
+                "auxillary_file_paths": [
+                    "results\\FirstRun2\\MoveSomewhere\\MoveSomewhere-7006064.pt"
+                ]
+            },
+            {
+                "steps": 7016816,
+                "file_path": "results\\FirstRun2\\MoveSomewhere\\MoveSomewhere-7016816.onnx",
+                "reward": null,
+                "creation_time": 1647889445.7192194,
+                "auxillary_file_paths": [
+                    "results\\FirstRun2\\MoveSomewhere\\MoveSomewhere-7016816.pt"
+                ]
+            },
+            {
+                "steps": 7027568,
+                "file_path": "results\\FirstRun2\\MoveSomewhere\\MoveSomewhere-7027568.onnx",
+                "reward": null,
+                "creation_time": 1647889543.5609932,
+                "auxillary_file_paths": [
+                    "results\\FirstRun2\\MoveSomewhere\\MoveSomewhere-7027568.pt"
+                ]
+            },
+            {
+                "steps": 7038320,
+                "file_path": "results\\FirstRun2\\MoveSomewhere\\MoveSomewhere-7038320.onnx",
+                "reward": null,
+                "creation_time": 1647889671.716922,
+                "auxillary_file_paths": [
+                    "results\\FirstRun2\\MoveSomewhere\\MoveSomewhere-7038320.pt"
+                ]
+            },
+            {
+                "steps": 7049072,
+                "file_path": "results\\FirstRun2\\MoveSomewhere\\MoveSomewhere-7049072.onnx",
+                "reward": null,
+                "creation_time": 1647889854.8973565,
+                "auxillary_file_paths": [
+                    "results\\FirstRun2\\MoveSomewhere\\MoveSomewhere-7049072.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 7049072,
+            "file_path": "results\\FirstRun2\\MoveSomewhere.onnx",
+            "reward": null,
+            "creation_time": 1647889854.8973565,
+            "auxillary_file_paths": [
+                "results\\FirstRun2\\MoveSomewhere\\MoveSomewhere-7049072.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.1"
+    }
+}

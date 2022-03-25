@@ -1,0 +1,29 @@
+{
+    "MoveSomewhere": {
+        "checkpoints": [
+            {
+                "steps": 23696,
+                "file_path": "results/'Barcelona-mar25'/MoveSomewhere/MoveSomewhere-23696.onnx",
+                "reward": -23.723952775471844,
+                "creation_time": 1648153873.6528242,
+                "auxillary_file_paths": [
+                    "results/'Barcelona-mar25'/MoveSomewhere/MoveSomewhere-23696.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 23696,
+            "file_path": "results/'Barcelona-mar25'/MoveSomewhere.onnx",
+            "reward": -23.723952775471844,
+            "creation_time": 1648153873.6528242,
+            "auxillary_file_paths": [
+                "results/'Barcelona-mar25'/MoveSomewhere/MoveSomewhere-23696.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.8.1+cu102"
+    }
+}

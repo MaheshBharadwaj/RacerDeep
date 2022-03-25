@@ -1,0 +1,65 @@
+{
+    "MoveSomewhere": {
+        "checkpoints": [
+            {
+                "steps": 6499975,
+                "file_path": "results\\'NewRunMar22-02'\\MoveSomewhere\\MoveSomewhere-6499975.onnx",
+                "reward": 16.529858305831166,
+                "creation_time": 1647976880.79959,
+                "auxillary_file_paths": [
+                    "results\\'NewRunMar22-02'\\MoveSomewhere\\MoveSomewhere-6499975.pt"
+                ]
+            },
+            {
+                "steps": 6999958,
+                "file_path": "results\\'NewRunMar22-02'\\MoveSomewhere\\MoveSomewhere-6999958.onnx",
+                "reward": 17.086128049913576,
+                "creation_time": 1647977324.7580414,
+                "auxillary_file_paths": [
+                    "results\\'NewRunMar22-02'\\MoveSomewhere\\MoveSomewhere-6999958.pt"
+                ]
+            },
+            {
+                "steps": 7499951,
+                "file_path": "results\\'NewRunMar22-02'\\MoveSomewhere\\MoveSomewhere-7499951.onnx",
+                "reward": 4.659175872802734,
+                "creation_time": 1647977763.323269,
+                "auxillary_file_paths": [
+                    "results\\'NewRunMar22-02'\\MoveSomewhere\\MoveSomewhere-7499951.pt"
+                ]
+            },
+            {
+                "steps": 7999994,
+                "file_path": "results\\'NewRunMar22-02'\\MoveSomewhere\\MoveSomewhere-7999994.onnx",
+                "reward": 20.0644890081424,
+                "creation_time": 1647978200.493992,
+                "auxillary_file_paths": [
+                    "results\\'NewRunMar22-02'\\MoveSomewhere\\MoveSomewhere-7999994.pt"
+                ]
+            },
+            {
+                "steps": 8187760,
+                "file_path": "results\\'NewRunMar22-02'\\MoveSomewhere\\MoveSomewhere-8187760.onnx",
+                "reward": 17.414792205827933,
+                "creation_time": 1647978368.4121637,
+                "auxillary_file_paths": [
+                    "results\\'NewRunMar22-02'\\MoveSomewhere\\MoveSomewhere-8187760.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 8187760,
+            "file_path": "results\\'NewRunMar22-02'\\MoveSomewhere.onnx",
+            "reward": 17.414792205827933,
+            "creation_time": 1647978368.4121637,
+            "auxillary_file_paths": [
+                "results\\'NewRunMar22-02'\\MoveSomewhere\\MoveSomewhere-8187760.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

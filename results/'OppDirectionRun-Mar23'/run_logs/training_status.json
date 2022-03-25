@@ -1,0 +1,65 @@
+{
+    "MoveSomewhere": {
+        "checkpoints": [
+            {
+                "steps": 13541479,
+                "file_path": "results\\'OppDirectionRun-Mar23'\\MoveSomewhere\\MoveSomewhere-13541479.onnx",
+                "reward": 4.1864179582335055,
+                "creation_time": 1648054447.195889,
+                "auxillary_file_paths": [
+                    "results\\'OppDirectionRun-Mar23'\\MoveSomewhere\\MoveSomewhere-13541479.pt"
+                ]
+            },
+            {
+                "steps": 13999948,
+                "file_path": "results\\'OppDirectionRun-Mar23'\\MoveSomewhere\\MoveSomewhere-13999948.onnx",
+                "reward": 9.240880262106657,
+                "creation_time": 1648055008.0854146,
+                "auxillary_file_paths": [
+                    "results\\'OppDirectionRun-Mar23'\\MoveSomewhere\\MoveSomewhere-13999948.pt"
+                ]
+            },
+            {
+                "steps": 14014819,
+                "file_path": "results\\'OppDirectionRun-Mar23'\\MoveSomewhere\\MoveSomewhere-14014819.onnx",
+                "reward": 9.19087939336896,
+                "creation_time": 1648055021.4885983,
+                "auxillary_file_paths": [
+                    "results\\'OppDirectionRun-Mar23'\\MoveSomewhere\\MoveSomewhere-14014819.pt"
+                ]
+            },
+            {
+                "steps": 14065209,
+                "file_path": "results\\'OppDirectionRun-Mar23'\\MoveSomewhere\\MoveSomewhere-14065209.onnx",
+                "reward": -10.548774553067757,
+                "creation_time": 1648055100.025402,
+                "auxillary_file_paths": [
+                    "results\\'OppDirectionRun-Mar23'\\MoveSomewhere\\MoveSomewhere-14065209.pt"
+                ]
+            },
+            {
+                "steps": 14205325,
+                "file_path": "results\\'OppDirectionRun-Mar23'\\MoveSomewhere\\MoveSomewhere-14205325.onnx",
+                "reward": -3.158135936373756,
+                "creation_time": 1648055268.879253,
+                "auxillary_file_paths": [
+                    "results\\'OppDirectionRun-Mar23'\\MoveSomewhere\\MoveSomewhere-14205325.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 14205325,
+            "file_path": "results\\'OppDirectionRun-Mar23'\\MoveSomewhere.onnx",
+            "reward": -3.158135936373756,
+            "creation_time": 1648055268.879253,
+            "auxillary_file_paths": [
+                "results\\'OppDirectionRun-Mar23'\\MoveSomewhere\\MoveSomewhere-14205325.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

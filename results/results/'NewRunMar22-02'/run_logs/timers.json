@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1647975452",
+        "python_version": "3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\prith\\anaconda3\\envs\\venv\\Scripts\\mlagents-learn NewRunMar22\\configuration.yaml --run-id='NewRunMar22-02'",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.22.0",
+        "end_time_seconds": "1647975455"
+    },
+    "total": 3.8106513,
+    "count": 1,
+    "self": 0.028494400000000475,
+    "children": {
+        "run_training.setup": {
+            "total": 0.12602639999999998,
+            "count": 1,
+            "self": 0.12602639999999998
+        },
+        "TrainerController.start_learning": {
+            "total": 3.6561304999999997,
+            "count": 1,
+            "self": 0.0009363000000002231,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 3.655156,
+                    "count": 1,
+                    "self": 3.655156
+                },
+                "trainer_threads": {
+                    "total": 4.999999999810711e-06,
+                    "count": 1,
+                    "self": 4.999999999810711e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 3.3199999999844465e-05,
+                    "count": 1,
+                    "self": 3.3199999999844465e-05
+                }
+            }
+        }
+    }
+}
