@@ -122,10 +122,16 @@ public class CarDriverAI : Agent
 
     public override void CollectObservations(VectorSensor sensor)
     {
+        //Debug.Log("Rotation[0]: " + transform.rotation[0]);
+        //Debug.Log("Rotation[1]: " + transform.rotation[1]);
+        //Debug.Log("Rotation[2]: " + transform.rotation[2]);
+        //Debug.Log("Rotation[3]: " + transform.rotation[3]);
         // Vector3 checkpointForward = trackCheckpoints.GetNextCheckpoint(transform).transform.forward;
-        AddReward((-1f / MaxStep)*0.3f);
+        AddReward((-1f / MaxStep)*0.1f);
         sensor.AddObservation(new Vector3(transform.localPosition[0], transform.localPosition[1], transform.localPosition[2]));
         sensor.AddObservation(carDriver.GetSpeed());
+        sensor.AddObservation(transform.rotation[1]);
+        sensor.AddObservation(transform.rotation[3]);
     }
 
 
