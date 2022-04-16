@@ -7,8 +7,8 @@ using Unity.MLAgents.Sensors;
 
 public class CarDriver : MonoBehaviour {
 
+    private int carId;
     [SerializeField] private TrackCheckpoints trackCheckpoints;
-    public int carId;
     private Rigidbody carRigidbody;
     #region Fields
     private float speed;
@@ -33,8 +33,21 @@ public class CarDriver : MonoBehaviour {
    
 
     private void Awake() {
+        carId = TrackCheckpoints.getIDNumber(trackCheckpoints.name);
         //Debug.Log("Driver Car ID: " + carId + " Track Checkpoints carID: " + trackCheckpoints.GetCarID());
         carRigidbody = GetComponent<Rigidbody>();
+
+        if (TryGetComponent(out RayPerceptionSensorComponent3D rayPerceptionSensor))
+        {
+            //Debug.Log("BEFORE DETECTABLE TAGS ADDED");
+            //Debug.Log(rayPerceptionSensor.DetectableTags);
+            //List<string> detectableTags = new List<string>();
+            //detectableTags.Add("SideWall");
+            //detectableTags.Add("CheckpointTag");
+            //rayPerceptionSensor.DetectableTags = detectableTags;
+            //Debug.Log("AFTER DETECTABLE TAGS ADDED");
+            Debug.Log(rayPerceptionSensor.DetectableTags);
+        }
     }
 
     public int getCarID()

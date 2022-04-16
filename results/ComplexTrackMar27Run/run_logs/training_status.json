@@ -1,0 +1,65 @@
+{
+    "MoveSomewhere": {
+        "checkpoints": [
+            {
+                "steps": 5499967,
+                "file_path": "results\\ComplexTrackMar27Run\\MoveSomewhere\\MoveSomewhere-5499967.onnx",
+                "reward": 38.573336790005364,
+                "creation_time": 1648394173.6152914,
+                "auxillary_file_paths": [
+                    "results\\ComplexTrackMar27Run\\MoveSomewhere\\MoveSomewhere-5499967.pt"
+                ]
+            },
+            {
+                "steps": 5999995,
+                "file_path": "results\\ComplexTrackMar27Run\\MoveSomewhere\\MoveSomewhere-5999995.onnx",
+                "reward": 42.362326549730085,
+                "creation_time": 1648394724.5701861,
+                "auxillary_file_paths": [
+                    "results\\ComplexTrackMar27Run\\MoveSomewhere\\MoveSomewhere-5999995.pt"
+                ]
+            },
+            {
+                "steps": 6499973,
+                "file_path": "results\\ComplexTrackMar27Run\\MoveSomewhere\\MoveSomewhere-6499973.onnx",
+                "reward": 41.41850739430923,
+                "creation_time": 1648395294.2285035,
+                "auxillary_file_paths": [
+                    "results\\ComplexTrackMar27Run\\MoveSomewhere\\MoveSomewhere-6499973.pt"
+                ]
+            },
+            {
+                "steps": 6999965,
+                "file_path": "results\\ComplexTrackMar27Run\\MoveSomewhere\\MoveSomewhere-6999965.onnx",
+                "reward": 21.345000654459,
+                "creation_time": 1648395860.6116152,
+                "auxillary_file_paths": [
+                    "results\\ComplexTrackMar27Run\\MoveSomewhere\\MoveSomewhere-6999965.pt"
+                ]
+            },
+            {
+                "steps": 7000029,
+                "file_path": "results\\ComplexTrackMar27Run\\MoveSomewhere\\MoveSomewhere-7000029.onnx",
+                "reward": 21.345000654459,
+                "creation_time": 1648395860.7032316,
+                "auxillary_file_paths": [
+                    "results\\ComplexTrackMar27Run\\MoveSomewhere\\MoveSomewhere-7000029.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 7000029,
+            "file_path": "results\\ComplexTrackMar27Run\\MoveSomewhere.onnx",
+            "reward": 21.345000654459,
+            "creation_time": 1648395860.7032316,
+            "auxillary_file_paths": [
+                "results\\ComplexTrackMar27Run\\MoveSomewhere\\MoveSomewhere-7000029.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

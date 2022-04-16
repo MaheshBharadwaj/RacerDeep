@@ -1,0 +1,65 @@
+{
+    "MoveSomewhere": {
+        "checkpoints": [
+            {
+                "steps": 23499976,
+                "file_path": "results\\AWSTrackRayPerceptionOnlyApr14\\MoveSomewhere\\MoveSomewhere-23499976.onnx",
+                "reward": null,
+                "creation_time": 1649987658.3392274,
+                "auxillary_file_paths": [
+                    "results\\AWSTrackRayPerceptionOnlyApr14\\MoveSomewhere\\MoveSomewhere-23499976.pt"
+                ]
+            },
+            {
+                "steps": 23999940,
+                "file_path": "results\\AWSTrackRayPerceptionOnlyApr14\\MoveSomewhere\\MoveSomewhere-23999940.onnx",
+                "reward": 33.619005508720875,
+                "creation_time": 1649988153.79992,
+                "auxillary_file_paths": [
+                    "results\\AWSTrackRayPerceptionOnlyApr14\\MoveSomewhere\\MoveSomewhere-23999940.pt"
+                ]
+            },
+            {
+                "steps": 24499989,
+                "file_path": "results\\AWSTrackRayPerceptionOnlyApr14\\MoveSomewhere\\MoveSomewhere-24499989.onnx",
+                "reward": null,
+                "creation_time": 1649988650.3207655,
+                "auxillary_file_paths": [
+                    "results\\AWSTrackRayPerceptionOnlyApr14\\MoveSomewhere\\MoveSomewhere-24499989.pt"
+                ]
+            },
+            {
+                "steps": 24999942,
+                "file_path": "results\\AWSTrackRayPerceptionOnlyApr14\\MoveSomewhere\\MoveSomewhere-24999942.onnx",
+                "reward": 88.23000448942184,
+                "creation_time": 1649989146.4548824,
+                "auxillary_file_paths": [
+                    "results\\AWSTrackRayPerceptionOnlyApr14\\MoveSomewhere\\MoveSomewhere-24999942.pt"
+                ]
+            },
+            {
+                "steps": 25000006,
+                "file_path": "results\\AWSTrackRayPerceptionOnlyApr14\\MoveSomewhere\\MoveSomewhere-25000006.onnx",
+                "reward": 88.23000448942184,
+                "creation_time": 1649989146.5525653,
+                "auxillary_file_paths": [
+                    "results\\AWSTrackRayPerceptionOnlyApr14\\MoveSomewhere\\MoveSomewhere-25000006.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 25000006,
+            "file_path": "results\\AWSTrackRayPerceptionOnlyApr14\\MoveSomewhere.onnx",
+            "reward": 88.23000448942184,
+            "creation_time": 1649989146.5525653,
+            "auxillary_file_paths": [
+                "results\\AWSTrackRayPerceptionOnlyApr14\\MoveSomewhere\\MoveSomewhere-25000006.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

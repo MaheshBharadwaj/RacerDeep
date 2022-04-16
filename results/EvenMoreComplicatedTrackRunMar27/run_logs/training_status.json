@@ -1,0 +1,65 @@
+{
+    "MoveSomewhere": {
+        "checkpoints": [
+            {
+                "steps": 3999956,
+                "file_path": "results\\EvenMoreComplicatedTrackRunMar27\\MoveSomewhere\\MoveSomewhere-3999956.onnx",
+                "reward": -5.333753880527285,
+                "creation_time": 1648404590.2070765,
+                "auxillary_file_paths": [
+                    "results\\EvenMoreComplicatedTrackRunMar27\\MoveSomewhere\\MoveSomewhere-3999956.pt"
+                ]
+            },
+            {
+                "steps": 4499963,
+                "file_path": "results\\EvenMoreComplicatedTrackRunMar27\\MoveSomewhere\\MoveSomewhere-4499963.onnx",
+                "reward": -5.711475998163223,
+                "creation_time": 1648405089.6795807,
+                "auxillary_file_paths": [
+                    "results\\EvenMoreComplicatedTrackRunMar27\\MoveSomewhere\\MoveSomewhere-4499963.pt"
+                ]
+            },
+            {
+                "steps": 4999991,
+                "file_path": "results\\EvenMoreComplicatedTrackRunMar27\\MoveSomewhere\\MoveSomewhere-4999991.onnx",
+                "reward": 7.3288986451096,
+                "creation_time": 1648405584.7061374,
+                "auxillary_file_paths": [
+                    "results\\EvenMoreComplicatedTrackRunMar27\\MoveSomewhere\\MoveSomewhere-4999991.pt"
+                ]
+            },
+            {
+                "steps": 5499952,
+                "file_path": "results\\EvenMoreComplicatedTrackRunMar27\\MoveSomewhere\\MoveSomewhere-5499952.onnx",
+                "reward": 32.77972017441477,
+                "creation_time": 1648406071.811282,
+                "auxillary_file_paths": [
+                    "results\\EvenMoreComplicatedTrackRunMar27\\MoveSomewhere\\MoveSomewhere-5499952.pt"
+                ]
+            },
+            {
+                "steps": 5822989,
+                "file_path": "results\\EvenMoreComplicatedTrackRunMar27\\MoveSomewhere\\MoveSomewhere-5822989.onnx",
+                "reward": null,
+                "creation_time": 1648406371.8681676,
+                "auxillary_file_paths": [
+                    "results\\EvenMoreComplicatedTrackRunMar27\\MoveSomewhere\\MoveSomewhere-5822989.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5822989,
+            "file_path": "results\\EvenMoreComplicatedTrackRunMar27\\MoveSomewhere.onnx",
+            "reward": null,
+            "creation_time": 1648406371.8681676,
+            "auxillary_file_paths": [
+                "results\\EvenMoreComplicatedTrackRunMar27\\MoveSomewhere\\MoveSomewhere-5822989.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

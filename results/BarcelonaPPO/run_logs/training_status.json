@@ -1,0 +1,65 @@
+{
+    "MoveSomewhere": {
+        "checkpoints": [
+            {
+                "steps": 23499992,
+                "file_path": "results/BarcelonaPPO/MoveSomewhere/MoveSomewhere-23499992.onnx",
+                "reward": 65.29636497931047,
+                "creation_time": 1648940413.505433,
+                "auxillary_file_paths": [
+                    "results/BarcelonaPPO/MoveSomewhere/MoveSomewhere-23499992.pt"
+                ]
+            },
+            {
+                "steps": 23999989,
+                "file_path": "results/BarcelonaPPO/MoveSomewhere/MoveSomewhere-23999989.onnx",
+                "reward": 71.49510759115219,
+                "creation_time": 1648940845.5047102,
+                "auxillary_file_paths": [
+                    "results/BarcelonaPPO/MoveSomewhere/MoveSomewhere-23999989.pt"
+                ]
+            },
+            {
+                "steps": 24499943,
+                "file_path": "results/BarcelonaPPO/MoveSomewhere/MoveSomewhere-24499943.onnx",
+                "reward": 74.04156911373138,
+                "creation_time": 1648941269.1995661,
+                "auxillary_file_paths": [
+                    "results/BarcelonaPPO/MoveSomewhere/MoveSomewhere-24499943.pt"
+                ]
+            },
+            {
+                "steps": 24999975,
+                "file_path": "results/BarcelonaPPO/MoveSomewhere/MoveSomewhere-24999975.onnx",
+                "reward": 77.46709280664271,
+                "creation_time": 1648941693.871891,
+                "auxillary_file_paths": [
+                    "results/BarcelonaPPO/MoveSomewhere/MoveSomewhere-24999975.pt"
+                ]
+            },
+            {
+                "steps": 25000039,
+                "file_path": "results/BarcelonaPPO/MoveSomewhere/MoveSomewhere-25000039.onnx",
+                "reward": 77.46709280664271,
+                "creation_time": 1648941693.9555507,
+                "auxillary_file_paths": [
+                    "results/BarcelonaPPO/MoveSomewhere/MoveSomewhere-25000039.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 25000039,
+            "file_path": "results/BarcelonaPPO/MoveSomewhere.onnx",
+            "reward": 77.46709280664271,
+            "creation_time": 1648941693.9555507,
+            "auxillary_file_paths": [
+                "results/BarcelonaPPO/MoveSomewhere/MoveSomewhere-25000039.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.8.1+cu102"
+    }
+}

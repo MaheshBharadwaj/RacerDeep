@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2FB5FDF6-45D3-47B4-1346-FDEAFC4EACCA}</ProjectGuid>
+    <ProjectGuid>{F8E55696-7F98-2D4D-4E46-48DE11BE36BC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -245,22 +245,22 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.25f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
  </Reference>
  <Reference Include="Google.Protobuf">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/PackageCache/com.unity.barracuda@2.0.0-pre.3/Barracuda/Runtime/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/PackageCache/com.unity.barracuda@2.0.0-pre.3/Barracuda/Runtime/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Burst.Unsafe">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/PackageCache/com.unity.burst@1.3.4/Unity.Burst.Unsafe.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/PackageCache/com.unity.burst@1.3.4/Unity.Burst.Unsafe.dll</HintPath>
  </Reference>
  <Reference Include="System.IO.Abstractions">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/PackageCache/com.unity.ml-agents@2.1.0-exp.1/Plugins/System.IO.Abstractions.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/PackageCache/com.unity.ml-agents@2.1.0-exp.1/Plugins/System.IO.Abstractions.dll</HintPath>
  </Reference>
  <Reference Include="System.IO.Abstractions.TestingHelpers">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/PackageCache/com.unity.ml-agents@2.1.0-exp.1/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/PackageCache/com.unity.ml-agents@2.1.0-exp.1/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
  </Reference>
  <Reference Include="Grpc.Core">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/PackageCache/com.unity.ml-agents@2.1.0-exp.1/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/PackageCache/com.unity.ml-agents@2.1.0-exp.1/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
  </Reference>
  <Reference Include="System.Interactive.Async">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/PackageCache/com.unity.ml-agents@2.1.0-exp.1/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/PackageCache/com.unity.ml-agents@2.1.0-exp.1/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.25f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -608,73 +608,73 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.25f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Barracuda.MacBLAS">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/ScriptAssemblies/Unity.Barracuda.MacBLAS.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/ScriptAssemblies/Unity.Barracuda.MacBLAS.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Burst">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Barracuda.Editor">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/ScriptAssemblies/Unity.Barracuda.Editor.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/ScriptAssemblies/Unity.Barracuda.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Burst.Editor">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Barracuda">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/ScriptAssemblies/Unity.Barracuda.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/ScriptAssemblies/Unity.Barracuda.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Barracuda.iOSBLAS">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/ScriptAssemblies/Unity.Barracuda.iOSBLAS.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/ScriptAssemblies/Unity.Barracuda.iOSBLAS.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ML-Agents.CommunicatorObjects">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/ScriptAssemblies/Unity.ML-Agents.CommunicatorObjects.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/ScriptAssemblies/Unity.ML-Agents.CommunicatorObjects.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Barracuda.BurstBLAS">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/ScriptAssemblies/Unity.Barracuda.BurstBLAS.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/ScriptAssemblies/Unity.Barracuda.BurstBLAS.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Mathematics">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Mathematics.Editor">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ML-Agents.Editor">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/ScriptAssemblies/Unity.ML-Agents.Editor.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/ScriptAssemblies/Unity.ML-Agents.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ML-Agents">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/ScriptAssemblies/Unity.ML-Agents.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/ScriptAssemblies/Unity.ML-Agents.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.quicksearch">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/ScriptAssemblies/com.unity.quicksearch.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/ScriptAssemblies/com.unity.quicksearch.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Barracuda.ONNX">
- <HintPath>C:/new-fyp-editions/racerdeep-with-barcelona/racerdeep/Library/ScriptAssemblies/Unity.Barracuda.ONNX.dll</HintPath>
+ <HintPath>C:/new-fyp-editions/racerdeep-apr14/final_year_project/Library/ScriptAssemblies/Unity.Barracuda.ONNX.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

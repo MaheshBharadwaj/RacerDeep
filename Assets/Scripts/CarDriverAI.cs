@@ -8,7 +8,7 @@ public class CarDriverAI : Agent
 {
     [SerializeField] private TrackCheckpoints trackCheckpoints;
     [SerializeField] private Transform spawnPosition;
-    [SerializeField] private int carId;
+    private int carId;
     private TrailRenderer trailRenderer;
     //public int MaxStep;
     private Vector3 initalPosition;
@@ -18,9 +18,17 @@ public class CarDriverAI : Agent
     private CarDriver carDriver;
     private int counter = 0;
 
+    private float collisionStayRewardToggle = 1.0f;
+    private float collisionStayRewardMultiplier = -0.02f;
+    private bool switchTurningCases = false;
+
+    private bool checkRewardThreshToggle = true;
+
 
     private void Awake()
     {
+        carId = TrackCheckpoints.getIDNumber(trackCheckpoints.name);
+
         //Debug.Log("AI Car ID: " + carId + " Track Checkpoints carID: " + trackCheckpoints.GetCarID());
         //carDriver = GetComponent<CarDriver>();
         Transform playerTransform = trackCheckpoints.transform.Find("Player");
@@ -122,16 +130,13 @@ public class CarDriverAI : Agent
 
     public override void CollectObservations(VectorSensor sensor)
     {
-        //Debug.Log("Rotation[0]: " + transform.rotation[0]);
-        //Debug.Log("Rotation[1]: " + transform.rotation[1]);
-        //Debug.Log("Rotation[2]: " + transform.rotation[2]);
-        //Debug.Log("Rotation[3]: " + transform.rotation[3]);
         // Vector3 checkpointForward = trackCheckpoints.GetNextCheckpoint(transform).transform.forward;
-        AddReward((-1f / MaxStep)*0.1f);
-        sensor.AddObservation(new Vector3(transform.localPosition[0], transform.localPosition[1], transform.localPosition[2]));
+        AddReward(-0.01f);
+        //sensor.AddObservation(trackCheckpoints.LapCompletedPercentage());
+        //sensor.AddObservation(new Vector3(transform.localPosition[0], transform.localPosition[1], transform.localPosition[2]));
         sensor.AddObservation(carDriver.GetSpeed());
-        sensor.AddObservation(transform.rotation[1]);
-        sensor.AddObservation(transform.rotation[3]);
+        //sensor.AddObservation(transform.rotation[1]);
+        //sensor.AddObservation(transform.rotation[3]);
     }
 
 
@@ -162,8 +167,8 @@ public class CarDriverAI : Agent
         switch (actions.DiscreteActions[1])
         {
             case 0: turnAmount = 0f; break;
-            case 1: turnAmount = +1f; break;
-            case 2: turnAmount = -1f; break;
+            case 1: turnAmount = this.switchTurningCases ? -1f : +1f; break;
+            case 2: turnAmount = this.switchTurningCases ? +1f : -1f; break;
         }
 
 
@@ -190,19 +195,25 @@ public class CarDriverAI : Agent
 
     private void OnCollisionEnter(Collision collision)
     {
-        //Debug.Log("WE GOT A COLLISION");
-        AddReward(-0.02f * carDriver.GetSpeed());
-        CheckRewardThresh();
+        Debug.Log("WE GOT A COLLISION");
+        AddReward(-0.02f * carDriver.GetSpeed() - 0.5f);
+        if (this.checkRewardThreshToggle)
+        {
+            CheckRewardThresh();
+        }
         //EndEpisode();
 
     }
 
     private void OnCollisionStay(Collision collision)
     {
-        Debug.Log("Counter: " + counter);
+        Debug.Log("WE GOT A CONSISTENT COLLISION");
         counter += 1;
-        AddReward(-0.02f * carDriver.GetSpeed() - 0.2f);
-        //CheckRewardThresh();
+        AddReward(this.collisionStayRewardToggle * (this.collisionStayRewardMultiplier * carDriver.GetSpeed() - 0.2f));
+        if (this.checkRewardThreshToggle)
+        {
+            CheckRewardThresh();
+        }
     }
 
     public override void Heuristic(in ActionBuffers actionsOut)

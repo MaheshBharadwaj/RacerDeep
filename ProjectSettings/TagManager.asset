@@ -9,6 +9,8 @@ TagManager:
   - Floor
   - SideWallnew
   - CheckpointNew
+  - CorrectCheckpointTag
+  - IncorrectCheckpointTag
   layers:
   - Default
   - TransparentFX

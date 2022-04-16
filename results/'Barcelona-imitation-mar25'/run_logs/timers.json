@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1648237526",
+        "python_version": "3.8.12 (default, Oct 12 2021, 03:01:40) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\mahes\\.conda\\envs\\mlagents\\Scripts\\mlagents-learn results\\Barcelona_Imitation\\configuration.yaml --force",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1",
+        "numpy_version": "1.21.5",
+        "end_time_seconds": "1648237544"
+    },
+    "total": 18.121760100000003,
+    "count": 1,
+    "self": 0.012477800000006312,
+    "children": {
+        "run_training.setup": {
+            "total": 0.13723909999999995,
+            "count": 1,
+            "self": 0.13723909999999995
+        },
+        "TrainerController.start_learning": {
+            "total": 17.972043199999998,
+            "count": 1,
+            "self": 0.0004751999999967893,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 17.9715484,
+                    "count": 1,
+                    "self": 17.9715484
+                },
+                "trainer_threads": {
+                    "total": 1.800000003271407e-06,
+                    "count": 1,
+                    "self": 1.800000003271407e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 1.7799999998402427e-05,
+                    "count": 1,
+                    "self": 1.7799999998402427e-05
+                }
+            }
+        }
+    }
+}

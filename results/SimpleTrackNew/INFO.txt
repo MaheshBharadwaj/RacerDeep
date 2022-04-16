@@ -1,0 +1,3 @@
+Track: SimpleTrackNew
+Ray Perception: 7, 90deg, ray length: 50, ray cast radius: 0.5
+Observations: local position, speed

@@ -1,6 +1,6 @@
 default_settings: null
 behaviors:
-  BarcelonaPPO:
+  MoveSomewhere:
     trainer_type: ppo
     hyperparameters:
       batch_size: 1024
@@ -13,7 +13,7 @@ behaviors:
       learning_rate_schedule: linear
     network_settings:
       normalize: false
-      hidden_units: 128
+      hidden_units: 256
       num_layers: 3
       vis_encode_type: simple
       memory: null
@@ -24,15 +24,15 @@ behaviors:
         strength: 1.0
         network_settings:
           normalize: false
-          hidden_units: 128
-          num_layers: 2
+          hidden_units: 256
+          num_layers: 3
           vis_encode_type: simple
           memory: null
           goal_conditioning_type: hyper
     init_path: null
     keep_checkpoints: 5
     checkpoint_interval: 500000
-    max_steps: 7000000
+    max_steps: 25000000
     time_horizon: 64
     summary_freq: 50000
     threaded: false
@@ -55,7 +55,7 @@ engine_settings:
 environment_parameters: null
 checkpoint_settings:
   run_id: NewRunMar22
-  initialize_from: 'ComplexTrackRun'
+  initialize_from: null
   load_model: false
   resume: false
   force: false
