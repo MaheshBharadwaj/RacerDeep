@@ -188,6 +188,72 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
+        type: 3}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bfc513b5a44538409bdd7fcb0c49ea6, type: 3}
 --- !u!1001 &303216559
@@ -256,6 +322,72 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
+        type: 3}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bfc513b5a44538409bdd7fcb0c49ea6, type: 3}
@@ -326,6 +458,72 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
+        type: 3}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bfc513b5a44538409bdd7fcb0c49ea6, type: 3}
 --- !u!1001 &464106031
@@ -394,6 +592,72 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
+        type: 3}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bfc513b5a44538409bdd7fcb0c49ea6, type: 3}
@@ -464,6 +728,72 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
+        type: 3}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bfc513b5a44538409bdd7fcb0c49ea6, type: 3}
 --- !u!1001 &684767506
@@ -532,6 +862,72 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
+        type: 3}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bfc513b5a44538409bdd7fcb0c49ea6, type: 3}
@@ -602,6 +998,72 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
+        type: 3}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bfc513b5a44538409bdd7fcb0c49ea6, type: 3}
 --- !u!1001 &823555753
@@ -670,6 +1132,72 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
+        type: 3}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bfc513b5a44538409bdd7fcb0c49ea6, type: 3}
@@ -740,6 +1268,72 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
+        type: 3}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bfc513b5a44538409bdd7fcb0c49ea6, type: 3}
 --- !u!1001 &999873993
@@ -809,6 +1403,72 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
+        type: 3}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bfc513b5a44538409bdd7fcb0c49ea6, type: 3}
 --- !u!1001 &1103724153
@@ -877,6 +1537,72 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
+        type: 3}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bfc513b5a44538409bdd7fcb0c49ea6, type: 3}
@@ -1029,6 +1755,72 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
+        type: 3}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bfc513b5a44538409bdd7fcb0c49ea6, type: 3}
@@ -1191,6 +1983,72 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
+        type: 3}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bfc513b5a44538409bdd7fcb0c49ea6, type: 3}
 --- !u!1001 &1349732214
@@ -1259,6 +2117,72 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
+        type: 3}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bfc513b5a44538409bdd7fcb0c49ea6, type: 3}
@@ -1329,6 +2253,72 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
+        type: 3}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bfc513b5a44538409bdd7fcb0c49ea6, type: 3}
 --- !u!1001 &1432368110
@@ -1397,6 +2387,72 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
+        type: 3}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bfc513b5a44538409bdd7fcb0c49ea6, type: 3}
@@ -1467,6 +2523,72 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
+        type: 3}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bfc513b5a44538409bdd7fcb0c49ea6, type: 3}
 --- !u!1001 &1646106893
@@ -1535,6 +2657,72 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
+        type: 3}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bfc513b5a44538409bdd7fcb0c49ea6, type: 3}
@@ -1605,6 +2793,72 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
+        type: 3}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bfc513b5a44538409bdd7fcb0c49ea6, type: 3}
 --- !u!1001 &1788808449
@@ -1673,6 +2927,72 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
+        type: 3}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bfc513b5a44538409bdd7fcb0c49ea6, type: 3}
@@ -1743,6 +3063,72 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
+        type: 3}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bfc513b5a44538409bdd7fcb0c49ea6, type: 3}
 --- !u!1001 &1974086157
@@ -1811,6 +3197,72 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
+        type: 3}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bfc513b5a44538409bdd7fcb0c49ea6, type: 3}
@@ -1881,6 +3333,72 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
+        type: 3}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bfc513b5a44538409bdd7fcb0c49ea6, type: 3}
 --- !u!1001 &4568941752392974518
@@ -1949,6 +3467,72 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
+        type: 3}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940313, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bfc513b5a44538409bdd7fcb0c49ea6, type: 3}

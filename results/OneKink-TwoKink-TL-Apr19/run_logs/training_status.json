@@ -1,0 +1,65 @@
+{
+    "MoveSomewhere": {
+        "checkpoints": [
+            {
+                "steps": 6499963,
+                "file_path": "results/OneKink-TwoKink-TL-Apr19/MoveSomewhere/MoveSomewhere-6499963.onnx",
+                "reward": 34.4420286251439,
+                "creation_time": 1650398234.2943192,
+                "auxillary_file_paths": [
+                    "results/OneKink-TwoKink-TL-Apr19/MoveSomewhere/MoveSomewhere-6499963.pt"
+                ]
+            },
+            {
+                "steps": 6999943,
+                "file_path": "results/OneKink-TwoKink-TL-Apr19/MoveSomewhere/MoveSomewhere-6999943.onnx",
+                "reward": -9.00999903678894,
+                "creation_time": 1650398564.3882668,
+                "auxillary_file_paths": [
+                    "results/OneKink-TwoKink-TL-Apr19/MoveSomewhere/MoveSomewhere-6999943.pt"
+                ]
+            },
+            {
+                "steps": 7499973,
+                "file_path": "results/OneKink-TwoKink-TL-Apr19/MoveSomewhere/MoveSomewhere-7499973.onnx",
+                "reward": 10.624516069889069,
+                "creation_time": 1650398891.2229173,
+                "auxillary_file_paths": [
+                    "results/OneKink-TwoKink-TL-Apr19/MoveSomewhere/MoveSomewhere-7499973.pt"
+                ]
+            },
+            {
+                "steps": 7999969,
+                "file_path": "results/OneKink-TwoKink-TL-Apr19/MoveSomewhere/MoveSomewhere-7999969.onnx",
+                "reward": 42.275166996887755,
+                "creation_time": 1650399211.4938915,
+                "auxillary_file_paths": [
+                    "results/OneKink-TwoKink-TL-Apr19/MoveSomewhere/MoveSomewhere-7999969.pt"
+                ]
+            },
+            {
+                "steps": 8000001,
+                "file_path": "results/OneKink-TwoKink-TL-Apr19/MoveSomewhere/MoveSomewhere-8000001.onnx",
+                "reward": 31.992021694779396,
+                "creation_time": 1650399211.561763,
+                "auxillary_file_paths": [
+                    "results/OneKink-TwoKink-TL-Apr19/MoveSomewhere/MoveSomewhere-8000001.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 8000001,
+            "file_path": "results/OneKink-TwoKink-TL-Apr19/MoveSomewhere.onnx",
+            "reward": 31.992021694779396,
+            "creation_time": 1650399211.561763,
+            "auxillary_file_paths": [
+                "results/OneKink-TwoKink-TL-Apr19/MoveSomewhere/MoveSomewhere-8000001.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.8.1+cu102"
+    }
+}

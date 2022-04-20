@@ -1,0 +1,65 @@
+{
+    "MoveSomewhere": {
+        "checkpoints": [
+            {
+                "steps": 23499997,
+                "file_path": "results/Barcelona-AWSTrack-TL-Apr16/MoveSomewhere/MoveSomewhere-23499997.onnx",
+                "reward": 14.45333551367124,
+                "creation_time": 1650146175.7240984,
+                "auxillary_file_paths": [
+                    "results/Barcelona-AWSTrack-TL-Apr16/MoveSomewhere/MoveSomewhere-23499997.pt"
+                ]
+            },
+            {
+                "steps": 23999982,
+                "file_path": "results/Barcelona-AWSTrack-TL-Apr16/MoveSomewhere/MoveSomewhere-23999982.onnx",
+                "reward": 112.23200577497482,
+                "creation_time": 1650146492.727445,
+                "auxillary_file_paths": [
+                    "results/Barcelona-AWSTrack-TL-Apr16/MoveSomewhere/MoveSomewhere-23999982.pt"
+                ]
+            },
+            {
+                "steps": 24499980,
+                "file_path": "results/Barcelona-AWSTrack-TL-Apr16/MoveSomewhere/MoveSomewhere-24499980.onnx",
+                "reward": null,
+                "creation_time": 1650146813.7110326,
+                "auxillary_file_paths": [
+                    "results/Barcelona-AWSTrack-TL-Apr16/MoveSomewhere/MoveSomewhere-24499980.pt"
+                ]
+            },
+            {
+                "steps": 24999980,
+                "file_path": "results/Barcelona-AWSTrack-TL-Apr16/MoveSomewhere/MoveSomewhere-24999980.onnx",
+                "reward": 42.79951709508896,
+                "creation_time": 1650147132.1660657,
+                "auxillary_file_paths": [
+                    "results/Barcelona-AWSTrack-TL-Apr16/MoveSomewhere/MoveSomewhere-24999980.pt"
+                ]
+            },
+            {
+                "steps": 25000044,
+                "file_path": "results/Barcelona-AWSTrack-TL-Apr16/MoveSomewhere/MoveSomewhere-25000044.onnx",
+                "reward": 42.79951709508896,
+                "creation_time": 1650147132.2493093,
+                "auxillary_file_paths": [
+                    "results/Barcelona-AWSTrack-TL-Apr16/MoveSomewhere/MoveSomewhere-25000044.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 25000044,
+            "file_path": "results/Barcelona-AWSTrack-TL-Apr16/MoveSomewhere.onnx",
+            "reward": 42.79951709508896,
+            "creation_time": 1650147132.2493093,
+            "auxillary_file_paths": [
+                "results/Barcelona-AWSTrack-TL-Apr16/MoveSomewhere/MoveSomewhere-25000044.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.8.1+cu102"
+    }
+}

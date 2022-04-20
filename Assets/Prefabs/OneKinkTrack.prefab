@@ -131,8 +131,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb70bf8d14d3df458b750abdaa36c3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctCheckpointMaterial: {fileID: 0}
-  incorrectCheckpointMaterial: {fileID: 0}
+  correctCheckpointMaterial: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172,
+    type: 2}
+  incorrectCheckpointMaterial: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6,
+    type: 2}
 --- !u!1 &6683265823691297180
 GameObject:
   m_ObjectHideFlags: 0
@@ -2423,34 +2425,43 @@ PrefabInstance:
     - target: {fileID: 5570111025558079028, guid: b43b9ac6e8291424380a752ed037fb9c,
         type: 3}
       propertyPath: m_MaxRayDegrees
-      value: 90
+      value: 125
       objectReference: {fileID: 0}
     - target: {fileID: 5570111025558079028, guid: b43b9ac6e8291424380a752ed037fb9c,
         type: 3}
       propertyPath: m_RaysPerDirection
-      value: 6
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5570111025558079028, guid: b43b9ac6e8291424380a752ed037fb9c,
         type: 3}
       propertyPath: m_DetectableTags.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5570111025558079028, guid: b43b9ac6e8291424380a752ed037fb9c,
         type: 3}
       propertyPath: m_DetectableTags.Array.data[0]
-      value: CheckpointTag
+      value: CorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 5570111025558079028, guid: b43b9ac6e8291424380a752ed037fb9c,
         type: 3}
       propertyPath: m_DetectableTags.Array.data[1]
+      value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 5570111025558079028, guid: b43b9ac6e8291424380a752ed037fb9c,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
       value: SideWall
       objectReference: {fileID: 0}
     - target: {fileID: 5570111025558079029, guid: b43b9ac6e8291424380a752ed037fb9c,
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 33a41cead3dd9d041b18b555fca2092b,
+      objectReference: {fileID: 0}
+    - target: {fileID: 5570111025558079029, guid: b43b9ac6e8291424380a752ed037fb9c,
         type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5570111025558079029, guid: b43b9ac6e8291424380a752ed037fb9c,
         type: 3}
       propertyPath: m_BrainParameters.NumStackedVectorObservations
@@ -2479,7 +2490,7 @@ PrefabInstance:
     - target: {fileID: 5574360201565025156, guid: b43b9ac6e8291424380a752ed037fb9c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -11.24
+      value: -10.1
       objectReference: {fileID: 0}
     - target: {fileID: 5574360201565025156, guid: b43b9ac6e8291424380a752ed037fb9c,
         type: 3}

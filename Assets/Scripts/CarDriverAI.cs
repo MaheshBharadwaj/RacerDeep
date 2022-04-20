@@ -208,6 +208,7 @@ public class CarDriverAI : Agent
     private void OnCollisionStay(Collision collision)
     {
         Debug.Log("WE GOT A CONSISTENT COLLISION");
+        Debug.Log(collision.gameObject.tag);
         counter += 1;
         AddReward(this.collisionStayRewardToggle * (this.collisionStayRewardMultiplier * carDriver.GetSpeed() - 0.2f));
         if (this.checkRewardThreshToggle)
