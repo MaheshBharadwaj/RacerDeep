@@ -89,6 +89,7 @@ public class TrackCheckpoints : MonoBehaviour
             if (nextCheckpointSingleIndex == 0 && gameStarted)
             {
                 PlayerLapCompleted(carID);
+                return;
             }
             if (!gameStarted)
             {

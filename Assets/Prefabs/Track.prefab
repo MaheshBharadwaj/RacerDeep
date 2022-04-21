@@ -244,6 +244,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb70bf8d14d3df458b750abdaa36c3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  correctCheckpointMaterial: {fileID: 0}
+  incorrectCheckpointMaterial: {fileID: 0}
 --- !u!1 &4162091500957420408
 GameObject:
   m_ObjectHideFlags: 0
@@ -1348,7 +1350,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 2.48, y: 1.41, z: 4.8}
-  m_Center: {x: 0, y: 0.73, z: 0}
+  m_Center: {x: 0, y: 0.73, z: -2.38}
 --- !u!114 &4162091502327311937
 MonoBehaviour:
   m_ObjectHideFlags: 0

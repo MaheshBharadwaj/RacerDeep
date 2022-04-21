@@ -55,6 +55,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CameraTarget.cs" />
      <Compile Include="Assets\Scripts\CarDriver.cs" />
      <Compile Include="Assets\Scripts\CarDriverAI.cs" />
      <Compile Include="Assets\Scripts\CheckpointSingle.cs" />

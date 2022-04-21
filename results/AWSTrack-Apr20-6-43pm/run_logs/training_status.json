@@ -1,0 +1,65 @@
+{
+    "MoveSomewhere": {
+        "checkpoints": [
+            {
+                "steps": 6499969,
+                "file_path": "results\\AWSTrack-Apr20-6-43pm\\MoveSomewhere\\MoveSomewhere-6499969.onnx",
+                "reward": 67.7136305719614,
+                "creation_time": 1650477181.5914223,
+                "auxillary_file_paths": [
+                    "results\\AWSTrack-Apr20-6-43pm\\MoveSomewhere\\MoveSomewhere-6499969.pt"
+                ]
+            },
+            {
+                "steps": 6999996,
+                "file_path": "results\\AWSTrack-Apr20-6-43pm\\MoveSomewhere\\MoveSomewhere-6999996.onnx",
+                "reward": 94.3686699171861,
+                "creation_time": 1650477767.4673462,
+                "auxillary_file_paths": [
+                    "results\\AWSTrack-Apr20-6-43pm\\MoveSomewhere\\MoveSomewhere-6999996.pt"
+                ]
+            },
+            {
+                "steps": 7499993,
+                "file_path": "results\\AWSTrack-Apr20-6-43pm\\MoveSomewhere\\MoveSomewhere-7499993.onnx",
+                "reward": null,
+                "creation_time": 1650478242.8948607,
+                "auxillary_file_paths": [
+                    "results\\AWSTrack-Apr20-6-43pm\\MoveSomewhere\\MoveSomewhere-7499993.pt"
+                ]
+            },
+            {
+                "steps": 7999997,
+                "file_path": "results\\AWSTrack-Apr20-6-43pm\\MoveSomewhere\\MoveSomewhere-7999997.onnx",
+                "reward": 109.08801230788231,
+                "creation_time": 1650478713.721445,
+                "auxillary_file_paths": [
+                    "results\\AWSTrack-Apr20-6-43pm\\MoveSomewhere\\MoveSomewhere-7999997.pt"
+                ]
+            },
+            {
+                "steps": 8000061,
+                "file_path": "results\\AWSTrack-Apr20-6-43pm\\MoveSomewhere\\MoveSomewhere-8000061.onnx",
+                "reward": 109.08801230788231,
+                "creation_time": 1650478713.8283882,
+                "auxillary_file_paths": [
+                    "results\\AWSTrack-Apr20-6-43pm\\MoveSomewhere\\MoveSomewhere-8000061.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 8000061,
+            "file_path": "results\\AWSTrack-Apr20-6-43pm\\MoveSomewhere.onnx",
+            "reward": 109.08801230788231,
+            "creation_time": 1650478713.8283882,
+            "auxillary_file_paths": [
+                "results\\AWSTrack-Apr20-6-43pm\\MoveSomewhere\\MoveSomewhere-8000061.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

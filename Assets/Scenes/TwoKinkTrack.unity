@@ -193,10 +193,50 @@ PrefabInstance:
       propertyPath: carId
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
     - target: {fileID: 5661078294040795726, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: DecisionPeriod
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: IncorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -208,6 +248,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BehaviorType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290774, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -293,10 +338,50 @@ PrefabInstance:
       propertyPath: carId
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
     - target: {fileID: 5661078294040795726, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: DecisionPeriod
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: IncorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -308,6 +393,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BehaviorType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290774, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -476,10 +566,50 @@ PrefabInstance:
       propertyPath: carId
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
     - target: {fileID: 5661078294040795726, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: DecisionPeriod
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: IncorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -491,6 +621,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BehaviorType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290774, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -576,10 +711,50 @@ PrefabInstance:
       propertyPath: carId
       value: 22
       objectReference: {fileID: 0}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
     - target: {fileID: 5661078294040795726, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: DecisionPeriod
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: IncorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -591,6 +766,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BehaviorType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290774, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -676,10 +856,50 @@ PrefabInstance:
       propertyPath: carId
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
     - target: {fileID: 5661078294040795726, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: DecisionPeriod
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: IncorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -691,6 +911,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BehaviorType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290774, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -776,10 +1001,50 @@ PrefabInstance:
       propertyPath: carId
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
     - target: {fileID: 5661078294040795726, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: DecisionPeriod
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: IncorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -791,6 +1056,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BehaviorType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290774, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -876,10 +1146,50 @@ PrefabInstance:
       propertyPath: carId
       value: 13
       objectReference: {fileID: 0}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
     - target: {fileID: 5661078294040795726, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: DecisionPeriod
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: IncorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -891,6 +1201,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BehaviorType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290774, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -976,10 +1291,50 @@ PrefabInstance:
       propertyPath: carId
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
     - target: {fileID: 5661078294040795726, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: DecisionPeriod
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: IncorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -991,6 +1346,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BehaviorType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290774, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -1076,10 +1436,50 @@ PrefabInstance:
       propertyPath: carId
       value: 23
       objectReference: {fileID: 0}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
     - target: {fileID: 5661078294040795726, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: DecisionPeriod
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: IncorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -1091,6 +1491,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BehaviorType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290774, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -1176,10 +1581,50 @@ PrefabInstance:
       propertyPath: carId
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
     - target: {fileID: 5661078294040795726, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: DecisionPeriod
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: IncorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -1191,6 +1636,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BehaviorType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290774, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -1276,10 +1726,50 @@ PrefabInstance:
       propertyPath: carId
       value: 14
       objectReference: {fileID: 0}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
     - target: {fileID: 5661078294040795726, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: DecisionPeriod
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: IncorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -1291,6 +1781,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BehaviorType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290774, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -1376,10 +1871,50 @@ PrefabInstance:
       propertyPath: carId
       value: 17
       objectReference: {fileID: 0}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
     - target: {fileID: 5661078294040795726, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: DecisionPeriod
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: IncorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -1391,6 +1926,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BehaviorType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290774, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -1476,10 +2016,50 @@ PrefabInstance:
       propertyPath: carId
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
     - target: {fileID: 5661078294040795726, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: DecisionPeriod
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: IncorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -1491,6 +2071,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BehaviorType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290774, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -1576,10 +2161,50 @@ PrefabInstance:
       propertyPath: carId
       value: 16
       objectReference: {fileID: 0}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
     - target: {fileID: 5661078294040795726, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: DecisionPeriod
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: IncorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -1591,6 +2216,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BehaviorType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290774, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -1676,10 +2306,50 @@ PrefabInstance:
       propertyPath: carId
       value: 19
       objectReference: {fileID: 0}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
     - target: {fileID: 5661078294040795726, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: DecisionPeriod
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: IncorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -1691,6 +2361,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BehaviorType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290774, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -1776,10 +2451,50 @@ PrefabInstance:
       propertyPath: carId
       value: 18
       objectReference: {fileID: 0}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
     - target: {fileID: 5661078294040795726, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: DecisionPeriod
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: IncorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -1791,6 +2506,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BehaviorType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290774, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -1876,10 +2596,50 @@ PrefabInstance:
       propertyPath: carId
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
     - target: {fileID: 5661078294040795726, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: DecisionPeriod
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: IncorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -1891,6 +2651,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BehaviorType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290774, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -1976,10 +2741,50 @@ PrefabInstance:
       propertyPath: carId
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
     - target: {fileID: 5661078294040795726, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: DecisionPeriod
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: IncorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -1991,6 +2796,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BehaviorType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290774, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -2076,10 +2886,50 @@ PrefabInstance:
       propertyPath: carId
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
     - target: {fileID: 5661078294040795726, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: DecisionPeriod
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: IncorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -2091,6 +2941,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BehaviorType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290774, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -2176,10 +3031,50 @@ PrefabInstance:
       propertyPath: carId
       value: 21
       objectReference: {fileID: 0}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
     - target: {fileID: 5661078294040795726, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: DecisionPeriod
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: IncorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -2191,6 +3086,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BehaviorType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290774, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -2276,10 +3176,50 @@ PrefabInstance:
       propertyPath: carId
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
     - target: {fileID: 5661078294040795726, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: DecisionPeriod
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: IncorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -2291,6 +3231,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BehaviorType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290774, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -2376,10 +3321,50 @@ PrefabInstance:
       propertyPath: carId
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
     - target: {fileID: 5661078294040795726, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: DecisionPeriod
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: IncorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -2391,6 +3376,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BehaviorType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290774, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -2476,10 +3466,50 @@ PrefabInstance:
       propertyPath: carId
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
     - target: {fileID: 5661078294040795726, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: DecisionPeriod
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: IncorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -2491,6 +3521,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BehaviorType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290774, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -2663,10 +3698,50 @@ PrefabInstance:
       propertyPath: m_Name
       value: EvenMoreComplexTrackScaled
       objectReference: {fileID: 0}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: correctCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
+    - target: {fileID: 3941444544033678037, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: incorrectCheckpointMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a0494d74cec7d20459746b9a4eaf34b6, type: 2}
     - target: {fileID: 5661078294040795726, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: DecisionPeriod
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_MaxRayDegrees
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[0]
+      value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: CorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: IncorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
@@ -2678,6 +3753,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BehaviorType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ad845c07adb3534c84dba1a3d122752, type: 3}
