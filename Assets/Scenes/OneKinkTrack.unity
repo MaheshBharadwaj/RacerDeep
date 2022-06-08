@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -190,6 +190,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
+      propertyPath: isAdversarialTraining
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
       propertyPath: correctCheckpointMaterial
       value: 
       objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
@@ -202,12 +207,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: m_BehaviorType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -248,6 +252,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_DetectableTags.Array.data[2]
       value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -325,6 +334,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
+      propertyPath: isAdversarialTraining
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
       propertyPath: correctCheckpointMaterial
       value: 
       objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
@@ -337,12 +351,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: m_BehaviorType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -383,6 +396,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_DetectableTags.Array.data[2]
       value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -460,6 +478,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
+      propertyPath: isAdversarialTraining
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
       propertyPath: correctCheckpointMaterial
       value: 
       objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
@@ -472,12 +495,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: m_BehaviorType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -518,6 +540,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_DetectableTags.Array.data[2]
       value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -595,6 +622,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
+      propertyPath: isAdversarialTraining
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
       propertyPath: correctCheckpointMaterial
       value: 
       objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
@@ -607,12 +639,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: m_BehaviorType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -653,6 +684,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_DetectableTags.Array.data[2]
       value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -730,6 +766,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
+      propertyPath: isAdversarialTraining
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
       propertyPath: correctCheckpointMaterial
       value: 
       objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
@@ -742,12 +783,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: m_BehaviorType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -788,6 +828,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_DetectableTags.Array.data[2]
       value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -865,6 +910,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
+      propertyPath: isAdversarialTraining
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
       propertyPath: correctCheckpointMaterial
       value: 
       objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
@@ -877,12 +927,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: m_BehaviorType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -923,6 +972,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_DetectableTags.Array.data[2]
       value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -1000,6 +1054,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
+      propertyPath: isAdversarialTraining
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
       propertyPath: correctCheckpointMaterial
       value: 
       objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
@@ -1012,12 +1071,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: m_BehaviorType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -1058,6 +1116,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_DetectableTags.Array.data[2]
       value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -1135,6 +1198,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
+      propertyPath: isAdversarialTraining
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
       propertyPath: correctCheckpointMaterial
       value: 
       objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
@@ -1147,12 +1215,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: m_BehaviorType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -1193,6 +1260,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_DetectableTags.Array.data[2]
       value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -1270,6 +1342,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
+      propertyPath: isAdversarialTraining
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
       propertyPath: correctCheckpointMaterial
       value: 
       objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
@@ -1282,12 +1359,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: m_BehaviorType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -1328,6 +1404,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_DetectableTags.Array.data[2]
       value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -1405,6 +1486,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
+      propertyPath: isAdversarialTraining
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
       propertyPath: correctCheckpointMaterial
       value: 
       objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
@@ -1417,12 +1503,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: m_BehaviorType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -1463,6 +1548,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_DetectableTags.Array.data[2]
       value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -1540,6 +1630,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
+      propertyPath: isAdversarialTraining
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
       propertyPath: correctCheckpointMaterial
       value: 
       objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
@@ -1552,12 +1647,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: m_BehaviorType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -1598,6 +1692,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_DetectableTags.Array.data[2]
       value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -1758,6 +1857,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
+      propertyPath: isAdversarialTraining
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
       propertyPath: correctCheckpointMaterial
       value: 
       objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
@@ -1770,12 +1874,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: m_BehaviorType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -1816,6 +1919,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_DetectableTags.Array.data[2]
       value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -1985,6 +2093,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
+      propertyPath: isAdversarialTraining
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
       propertyPath: correctCheckpointMaterial
       value: 
       objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
@@ -1997,12 +2110,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: m_BehaviorType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -2043,6 +2155,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_DetectableTags.Array.data[2]
       value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -2120,6 +2237,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
+      propertyPath: isAdversarialTraining
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
       propertyPath: correctCheckpointMaterial
       value: 
       objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
@@ -2132,12 +2254,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: m_BehaviorType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -2178,6 +2299,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_DetectableTags.Array.data[2]
       value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -2255,6 +2381,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
+      propertyPath: isAdversarialTraining
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
       propertyPath: correctCheckpointMaterial
       value: 
       objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
@@ -2267,12 +2398,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: m_BehaviorType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -2313,6 +2443,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_DetectableTags.Array.data[2]
       value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -2390,6 +2525,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
+      propertyPath: isAdversarialTraining
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
       propertyPath: correctCheckpointMaterial
       value: 
       objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
@@ -2402,12 +2542,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: m_BehaviorType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -2448,6 +2587,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_DetectableTags.Array.data[2]
       value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -2525,6 +2669,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
+      propertyPath: isAdversarialTraining
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
       propertyPath: correctCheckpointMaterial
       value: 
       objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
@@ -2537,12 +2686,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: m_BehaviorType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -2583,6 +2731,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_DetectableTags.Array.data[2]
       value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -2660,6 +2813,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
+      propertyPath: isAdversarialTraining
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
       propertyPath: correctCheckpointMaterial
       value: 
       objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
@@ -2672,12 +2830,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: m_BehaviorType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -2718,6 +2875,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_DetectableTags.Array.data[2]
       value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -2795,6 +2957,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
+      propertyPath: isAdversarialTraining
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
       propertyPath: correctCheckpointMaterial
       value: 
       objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
@@ -2807,12 +2974,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: m_BehaviorType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -2853,6 +3019,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_DetectableTags.Array.data[2]
       value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -2930,6 +3101,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
+      propertyPath: isAdversarialTraining
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
       propertyPath: correctCheckpointMaterial
       value: 
       objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
@@ -2942,12 +3118,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: m_BehaviorType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -2988,6 +3163,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_DetectableTags.Array.data[2]
       value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -3065,6 +3245,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
+      propertyPath: isAdversarialTraining
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
       propertyPath: correctCheckpointMaterial
       value: 
       objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
@@ -3077,12 +3262,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: m_BehaviorType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -3123,6 +3307,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_DetectableTags.Array.data[2]
       value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -3200,6 +3389,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
+      propertyPath: isAdversarialTraining
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
       propertyPath: correctCheckpointMaterial
       value: 
       objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
@@ -3212,12 +3406,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: m_BehaviorType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -3258,6 +3451,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_DetectableTags.Array.data[2]
       value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -3335,6 +3533,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
+      propertyPath: isAdversarialTraining
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
       propertyPath: correctCheckpointMaterial
       value: 
       objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
@@ -3347,12 +3550,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: m_BehaviorType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -3393,6 +3595,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_DetectableTags.Array.data[2]
       value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -3470,6 +3677,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
+      propertyPath: isAdversarialTraining
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
       propertyPath: correctCheckpointMaterial
       value: 
       objectReference: {fileID: 2100000, guid: 7a88767fcd37096469ae9c64a8c90172, type: 2}
@@ -3482,12 +3694,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4242e698405753f1881d997d736f5715,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: m_BehaviorType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7407765358742940312, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -3528,6 +3739,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_DetectableTags.Array.data[2]
       value: SideWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}

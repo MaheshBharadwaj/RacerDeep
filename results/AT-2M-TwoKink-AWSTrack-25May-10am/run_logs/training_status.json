@@ -1,0 +1,65 @@
+{
+    "MoveSomewhere": {
+        "checkpoints": [
+            {
+                "steps": 6499983,
+                "file_path": "results\\AT-2M-TwoKink-AWSTrack-25May-10am\\MoveSomewhere\\MoveSomewhere-6499983.onnx",
+                "reward": null,
+                "creation_time": 1653462305.0302763,
+                "auxillary_file_paths": [
+                    "results\\AT-2M-TwoKink-AWSTrack-25May-10am\\MoveSomewhere\\MoveSomewhere-6499983.pt"
+                ]
+            },
+            {
+                "steps": 6999953,
+                "file_path": "results\\AT-2M-TwoKink-AWSTrack-25May-10am\\MoveSomewhere\\MoveSomewhere-6999953.onnx",
+                "reward": 122.0940119177103,
+                "creation_time": 1653463058.674878,
+                "auxillary_file_paths": [
+                    "results\\AT-2M-TwoKink-AWSTrack-25May-10am\\MoveSomewhere\\MoveSomewhere-6999953.pt"
+                ]
+            },
+            {
+                "steps": 7499948,
+                "file_path": "results\\AT-2M-TwoKink-AWSTrack-25May-10am\\MoveSomewhere\\MoveSomewhere-7499948.onnx",
+                "reward": null,
+                "creation_time": 1653463819.1054616,
+                "auxillary_file_paths": [
+                    "results\\AT-2M-TwoKink-AWSTrack-25May-10am\\MoveSomewhere\\MoveSomewhere-7499948.pt"
+                ]
+            },
+            {
+                "steps": 7999941,
+                "file_path": "results\\AT-2M-TwoKink-AWSTrack-25May-10am\\MoveSomewhere\\MoveSomewhere-7999941.onnx",
+                "reward": 168.63268050551414,
+                "creation_time": 1653464602.828062,
+                "auxillary_file_paths": [
+                    "results\\AT-2M-TwoKink-AWSTrack-25May-10am\\MoveSomewhere\\MoveSomewhere-7999941.pt"
+                ]
+            },
+            {
+                "steps": 8000005,
+                "file_path": "results\\AT-2M-TwoKink-AWSTrack-25May-10am\\MoveSomewhere\\MoveSomewhere-8000005.onnx",
+                "reward": 168.63268050551414,
+                "creation_time": 1653464602.943263,
+                "auxillary_file_paths": [
+                    "results\\AT-2M-TwoKink-AWSTrack-25May-10am\\MoveSomewhere\\MoveSomewhere-8000005.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 8000005,
+            "file_path": "results\\AT-2M-TwoKink-AWSTrack-25May-10am\\MoveSomewhere.onnx",
+            "reward": 168.63268050551414,
+            "creation_time": 1653464602.943263,
+            "auxillary_file_paths": [
+                "results\\AT-2M-TwoKink-AWSTrack-25May-10am\\MoveSomewhere\\MoveSomewhere-8000005.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.1"
+    }
+}

@@ -3,41 +3,46 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using UnityEngine;
+using Random = System.Random;
 
 public class TrackCheckpoints : MonoBehaviour
 {
-
+    [SerializeField] private Boolean isAdversarialTraining;
     [SerializeField] private Material correctCheckpointMaterial;
     [SerializeField] private Material incorrectCheckpointMaterial;
     public static TrackCheckpoints current;
     private int carId;
+
+    // added Old checkpoints vector for resetting position after "adversarial training"
+    private List<Vector3> OldCheckpointPositions;
     public void Awake()
     {
-
+        
         //Debug.Log("Im printing the NAME");
         //Debug.Log(this.name.Substring(this.name.Length - 5, this.name.Length - 1));
 
         carId = getIDNumber(this.name);
-        Debug.Log("My name is " + this.name);
-        Debug.Log("My car ID is " + carId);
+        // Debug.Log("My name is " + this.name);
+        // Debug.Log("My car ID is " + carId);
         
         current = this;
         Transform checkpointsTransform = this.transform.Find("Checkpoints");
-
-        checkpointSingleList = new List<CheckpointSingle>();
+        OldCheckpointPositions = new List<Vector3>();
+        checkpointSingleList = new List<CheckpointSingle>(); //for adversarial training
         foreach (Transform checkpointSingleTransform in checkpointsTransform)
         {
             CheckpointSingle checkpointSingle = checkpointSingleTransform.GetComponent<CheckpointSingle>();
             checkpointSingle.setTrackCheckpoints(this);
 
             checkpointSingleList.Add(checkpointSingle);
+            OldCheckpointPositions.Add(checkpointSingle.gameObject.transform.localPosition); //appending for reset after adversarial training
             if (checkpointSingle.gameObject.TryGetComponent(out MeshRenderer meshRenderer))
             {
                 //Debug.Log(meshRenderer);
                 meshRenderer.material = incorrectCheckpointMaterial;
             }
         }
-        Debug.Log("number of checkpoints: " + checkpointSingleList.Count);
+        // Debug.Log("number of checkpoints: " + checkpointSingleList.Count);
         //for(int i = 0; i < )
         //nextCheckpointSingleIndex = 0;
     }
@@ -83,6 +88,8 @@ public class TrackCheckpoints : MonoBehaviour
 
     public void PlayerThroughCheckpoint(CheckpointSingle checkpointSingle, int carID)
     {
+        Random rnd = new Random();
+
         if (checkpointSingleList.IndexOf(checkpointSingle) == nextCheckpointSingleIndex)
         {
             PlayerCorrectCheckpoint(carID);
@@ -103,6 +110,24 @@ public class TrackCheckpoints : MonoBehaviour
             }
             // Obtain next checkpoint index
             nextCheckpointSingleIndex = (nextCheckpointSingleIndex + 1) % checkpointSingleList.Count;
+
+
+            // Debug.Log(nextCheckpointSingleIndex);
+
+            // Adversarial training part -> Adding random noise to checkpoint position
+
+            if (isAdversarialTraining)
+            {
+                Debug.Log("Before: " +checkpointSingleList[nextCheckpointSingleIndex].gameObject.transform.localPosition);
+
+                checkpointSingleList[nextCheckpointSingleIndex].gameObject.transform.localPosition += new Vector3((float)rnd.Next(-4,4)+(float)rnd.NextDouble()*1f,0f,(float)rnd.Next(-4,4)+(float)rnd.NextDouble()*1f);
+                // checkpointSingleList[nextCheckpointSingleIndex].gameObject.transform.localPosition += new Vector3(6f,0f,0f);
+                Debug.Log("After: " + checkpointSingleList[nextCheckpointSingleIndex].gameObject.transform.localPosition);
+                
+            }
+            
+
+
             // Set the tag for correct checkpoint and material for correct checkpoint
             checkpointSingleList[nextCheckpointSingleIndex].gameObject.tag = "CorrectCheckpointTag";
             if (checkpointSingleList[nextCheckpointSingleIndex].gameObject.TryGetComponent(out MeshRenderer meshRenderer))
@@ -132,8 +157,14 @@ public class TrackCheckpoints : MonoBehaviour
     public void ResetCheckpoint()
     {
         nextCheckpointSingleIndex = 0;
+
+        int i = 0; //for resetting checkpoint
         foreach (CheckpointSingle checkpointSingle in checkpointSingleList)
         {
+            // resetting checkpoint at end of episode (after adversarial training)
+            checkpointSingle.gameObject.transform.localPosition = OldCheckpointPositions[i];
+            i++;
+
             checkpointSingle.gameObject.tag = "IncorrectCheckpointTag";
             if (checkpointSingle.gameObject.TryGetComponent(out MeshRenderer meshRenderer2))
             {
@@ -150,7 +181,7 @@ public class TrackCheckpoints : MonoBehaviour
 
     public float LapCompletedPercentage()
     {
-        Debug.Log("Lap progress: " + ((float)nextCheckpointSingleIndex / (float)checkpointSingleList.Count) * 100f);
+        // Debug.Log("Lap progress: " + ((float)nextCheckpointSingleIndex / (float)checkpointSingleList.Count) * 100f);
         return ((float)nextCheckpointSingleIndex / (float)checkpointSingleList.Count) * 100f;
     }
 

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -226,24 +226,23 @@ PrefabInstance:
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_DetectableTags.Array.data[0]
-      value: SideWall
-      objectReference: {fileID: 0}
-    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
-        type: 3}
-      propertyPath: m_DetectableTags.Array.data[1]
       value: CorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
-      propertyPath: m_DetectableTags.Array.data[2]
+      propertyPath: m_DetectableTags.Array.data[1]
       value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4ad7c0bb19bd0b6498b23515872b945d,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_BehaviorType
@@ -263,6 +262,11 @@ PrefabInstance:
         type: 3}
       propertyPath: carId
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290775, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ad845c07adb3534c84dba1a3d122752, type: 3}
@@ -371,24 +375,23 @@ PrefabInstance:
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_DetectableTags.Array.data[0]
-      value: SideWall
-      objectReference: {fileID: 0}
-    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
-        type: 3}
-      propertyPath: m_DetectableTags.Array.data[1]
       value: CorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
-      propertyPath: m_DetectableTags.Array.data[2]
+      propertyPath: m_DetectableTags.Array.data[1]
       value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4ad7c0bb19bd0b6498b23515872b945d,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_BehaviorType
@@ -408,6 +411,11 @@ PrefabInstance:
         type: 3}
       propertyPath: carId
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290775, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ad845c07adb3534c84dba1a3d122752, type: 3}
@@ -599,24 +607,23 @@ PrefabInstance:
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_DetectableTags.Array.data[0]
-      value: SideWall
-      objectReference: {fileID: 0}
-    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
-        type: 3}
-      propertyPath: m_DetectableTags.Array.data[1]
       value: CorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
-      propertyPath: m_DetectableTags.Array.data[2]
+      propertyPath: m_DetectableTags.Array.data[1]
       value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4ad7c0bb19bd0b6498b23515872b945d,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_BehaviorType
@@ -636,6 +643,11 @@ PrefabInstance:
         type: 3}
       propertyPath: carId
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290775, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ad845c07adb3534c84dba1a3d122752, type: 3}
@@ -744,24 +756,23 @@ PrefabInstance:
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_DetectableTags.Array.data[0]
-      value: SideWall
-      objectReference: {fileID: 0}
-    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
-        type: 3}
-      propertyPath: m_DetectableTags.Array.data[1]
       value: CorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
-      propertyPath: m_DetectableTags.Array.data[2]
+      propertyPath: m_DetectableTags.Array.data[1]
       value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4ad7c0bb19bd0b6498b23515872b945d,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_BehaviorType
@@ -781,6 +792,11 @@ PrefabInstance:
         type: 3}
       propertyPath: carId
       value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290775, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ad845c07adb3534c84dba1a3d122752, type: 3}
@@ -889,24 +905,23 @@ PrefabInstance:
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_DetectableTags.Array.data[0]
-      value: SideWall
-      objectReference: {fileID: 0}
-    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
-        type: 3}
-      propertyPath: m_DetectableTags.Array.data[1]
       value: CorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
-      propertyPath: m_DetectableTags.Array.data[2]
+      propertyPath: m_DetectableTags.Array.data[1]
       value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4ad7c0bb19bd0b6498b23515872b945d,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_BehaviorType
@@ -926,6 +941,11 @@ PrefabInstance:
         type: 3}
       propertyPath: carId
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290775, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ad845c07adb3534c84dba1a3d122752, type: 3}
@@ -1034,24 +1054,23 @@ PrefabInstance:
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_DetectableTags.Array.data[0]
-      value: SideWall
-      objectReference: {fileID: 0}
-    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
-        type: 3}
-      propertyPath: m_DetectableTags.Array.data[1]
       value: CorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
-      propertyPath: m_DetectableTags.Array.data[2]
+      propertyPath: m_DetectableTags.Array.data[1]
       value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4ad7c0bb19bd0b6498b23515872b945d,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_BehaviorType
@@ -1071,6 +1090,11 @@ PrefabInstance:
         type: 3}
       propertyPath: carId
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290775, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ad845c07adb3534c84dba1a3d122752, type: 3}
@@ -1179,24 +1203,23 @@ PrefabInstance:
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_DetectableTags.Array.data[0]
-      value: SideWall
-      objectReference: {fileID: 0}
-    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
-        type: 3}
-      propertyPath: m_DetectableTags.Array.data[1]
       value: CorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
-      propertyPath: m_DetectableTags.Array.data[2]
+      propertyPath: m_DetectableTags.Array.data[1]
       value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4ad7c0bb19bd0b6498b23515872b945d,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_BehaviorType
@@ -1216,6 +1239,11 @@ PrefabInstance:
         type: 3}
       propertyPath: carId
       value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290775, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ad845c07adb3534c84dba1a3d122752, type: 3}
@@ -1324,24 +1352,23 @@ PrefabInstance:
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_DetectableTags.Array.data[0]
-      value: SideWall
-      objectReference: {fileID: 0}
-    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
-        type: 3}
-      propertyPath: m_DetectableTags.Array.data[1]
       value: CorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
-      propertyPath: m_DetectableTags.Array.data[2]
+      propertyPath: m_DetectableTags.Array.data[1]
       value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4ad7c0bb19bd0b6498b23515872b945d,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_BehaviorType
@@ -1361,6 +1388,11 @@ PrefabInstance:
         type: 3}
       propertyPath: carId
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290775, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ad845c07adb3534c84dba1a3d122752, type: 3}
@@ -1469,24 +1501,23 @@ PrefabInstance:
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_DetectableTags.Array.data[0]
-      value: SideWall
-      objectReference: {fileID: 0}
-    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
-        type: 3}
-      propertyPath: m_DetectableTags.Array.data[1]
       value: CorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
-      propertyPath: m_DetectableTags.Array.data[2]
+      propertyPath: m_DetectableTags.Array.data[1]
       value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4ad7c0bb19bd0b6498b23515872b945d,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_BehaviorType
@@ -1506,6 +1537,11 @@ PrefabInstance:
         type: 3}
       propertyPath: carId
       value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290775, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ad845c07adb3534c84dba1a3d122752, type: 3}
@@ -1614,24 +1650,23 @@ PrefabInstance:
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_DetectableTags.Array.data[0]
-      value: SideWall
-      objectReference: {fileID: 0}
-    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
-        type: 3}
-      propertyPath: m_DetectableTags.Array.data[1]
       value: CorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
-      propertyPath: m_DetectableTags.Array.data[2]
+      propertyPath: m_DetectableTags.Array.data[1]
       value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4ad7c0bb19bd0b6498b23515872b945d,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_BehaviorType
@@ -1651,6 +1686,11 @@ PrefabInstance:
         type: 3}
       propertyPath: carId
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290775, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ad845c07adb3534c84dba1a3d122752, type: 3}
@@ -1759,24 +1799,23 @@ PrefabInstance:
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_DetectableTags.Array.data[0]
-      value: SideWall
-      objectReference: {fileID: 0}
-    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
-        type: 3}
-      propertyPath: m_DetectableTags.Array.data[1]
       value: CorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
-      propertyPath: m_DetectableTags.Array.data[2]
+      propertyPath: m_DetectableTags.Array.data[1]
       value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4ad7c0bb19bd0b6498b23515872b945d,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_BehaviorType
@@ -1796,6 +1835,11 @@ PrefabInstance:
         type: 3}
       propertyPath: carId
       value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290775, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ad845c07adb3534c84dba1a3d122752, type: 3}
@@ -1904,24 +1948,23 @@ PrefabInstance:
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_DetectableTags.Array.data[0]
-      value: SideWall
-      objectReference: {fileID: 0}
-    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
-        type: 3}
-      propertyPath: m_DetectableTags.Array.data[1]
       value: CorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
-      propertyPath: m_DetectableTags.Array.data[2]
+      propertyPath: m_DetectableTags.Array.data[1]
       value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4ad7c0bb19bd0b6498b23515872b945d,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_BehaviorType
@@ -1941,6 +1984,11 @@ PrefabInstance:
         type: 3}
       propertyPath: carId
       value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290775, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ad845c07adb3534c84dba1a3d122752, type: 3}
@@ -2049,24 +2097,23 @@ PrefabInstance:
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_DetectableTags.Array.data[0]
-      value: SideWall
-      objectReference: {fileID: 0}
-    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
-        type: 3}
-      propertyPath: m_DetectableTags.Array.data[1]
       value: CorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
-      propertyPath: m_DetectableTags.Array.data[2]
+      propertyPath: m_DetectableTags.Array.data[1]
       value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4ad7c0bb19bd0b6498b23515872b945d,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_BehaviorType
@@ -2086,6 +2133,11 @@ PrefabInstance:
         type: 3}
       propertyPath: carId
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290775, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ad845c07adb3534c84dba1a3d122752, type: 3}
@@ -2194,24 +2246,23 @@ PrefabInstance:
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_DetectableTags.Array.data[0]
-      value: SideWall
-      objectReference: {fileID: 0}
-    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
-        type: 3}
-      propertyPath: m_DetectableTags.Array.data[1]
       value: CorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
-      propertyPath: m_DetectableTags.Array.data[2]
+      propertyPath: m_DetectableTags.Array.data[1]
       value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4ad7c0bb19bd0b6498b23515872b945d,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_BehaviorType
@@ -2231,6 +2282,11 @@ PrefabInstance:
         type: 3}
       propertyPath: carId
       value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290775, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ad845c07adb3534c84dba1a3d122752, type: 3}
@@ -2339,24 +2395,23 @@ PrefabInstance:
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_DetectableTags.Array.data[0]
-      value: SideWall
-      objectReference: {fileID: 0}
-    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
-        type: 3}
-      propertyPath: m_DetectableTags.Array.data[1]
       value: CorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
-      propertyPath: m_DetectableTags.Array.data[2]
+      propertyPath: m_DetectableTags.Array.data[1]
       value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4ad7c0bb19bd0b6498b23515872b945d,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_BehaviorType
@@ -2376,6 +2431,11 @@ PrefabInstance:
         type: 3}
       propertyPath: carId
       value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290775, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ad845c07adb3534c84dba1a3d122752, type: 3}
@@ -2484,24 +2544,23 @@ PrefabInstance:
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_DetectableTags.Array.data[0]
-      value: SideWall
-      objectReference: {fileID: 0}
-    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
-        type: 3}
-      propertyPath: m_DetectableTags.Array.data[1]
       value: CorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
-      propertyPath: m_DetectableTags.Array.data[2]
+      propertyPath: m_DetectableTags.Array.data[1]
       value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4ad7c0bb19bd0b6498b23515872b945d,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_BehaviorType
@@ -2521,6 +2580,11 @@ PrefabInstance:
         type: 3}
       propertyPath: carId
       value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290775, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ad845c07adb3534c84dba1a3d122752, type: 3}
@@ -2629,24 +2693,23 @@ PrefabInstance:
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_DetectableTags.Array.data[0]
-      value: SideWall
-      objectReference: {fileID: 0}
-    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
-        type: 3}
-      propertyPath: m_DetectableTags.Array.data[1]
       value: CorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
-      propertyPath: m_DetectableTags.Array.data[2]
+      propertyPath: m_DetectableTags.Array.data[1]
       value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4ad7c0bb19bd0b6498b23515872b945d,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_BehaviorType
@@ -2666,6 +2729,11 @@ PrefabInstance:
         type: 3}
       propertyPath: carId
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290775, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ad845c07adb3534c84dba1a3d122752, type: 3}
@@ -2774,24 +2842,23 @@ PrefabInstance:
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_DetectableTags.Array.data[0]
-      value: SideWall
-      objectReference: {fileID: 0}
-    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
-        type: 3}
-      propertyPath: m_DetectableTags.Array.data[1]
       value: CorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
-      propertyPath: m_DetectableTags.Array.data[2]
+      propertyPath: m_DetectableTags.Array.data[1]
       value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4ad7c0bb19bd0b6498b23515872b945d,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_BehaviorType
@@ -2811,6 +2878,11 @@ PrefabInstance:
         type: 3}
       propertyPath: carId
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290775, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ad845c07adb3534c84dba1a3d122752, type: 3}
@@ -2919,24 +2991,23 @@ PrefabInstance:
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_DetectableTags.Array.data[0]
-      value: SideWall
-      objectReference: {fileID: 0}
-    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
-        type: 3}
-      propertyPath: m_DetectableTags.Array.data[1]
       value: CorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
-      propertyPath: m_DetectableTags.Array.data[2]
+      propertyPath: m_DetectableTags.Array.data[1]
       value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4ad7c0bb19bd0b6498b23515872b945d,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_BehaviorType
@@ -2956,6 +3027,11 @@ PrefabInstance:
         type: 3}
       propertyPath: carId
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290775, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ad845c07adb3534c84dba1a3d122752, type: 3}
@@ -3064,24 +3140,23 @@ PrefabInstance:
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_DetectableTags.Array.data[0]
-      value: SideWall
-      objectReference: {fileID: 0}
-    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
-        type: 3}
-      propertyPath: m_DetectableTags.Array.data[1]
       value: CorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
-      propertyPath: m_DetectableTags.Array.data[2]
+      propertyPath: m_DetectableTags.Array.data[1]
       value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4ad7c0bb19bd0b6498b23515872b945d,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_BehaviorType
@@ -3101,6 +3176,11 @@ PrefabInstance:
         type: 3}
       propertyPath: carId
       value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290775, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ad845c07adb3534c84dba1a3d122752, type: 3}
@@ -3209,24 +3289,23 @@ PrefabInstance:
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_DetectableTags.Array.data[0]
-      value: SideWall
-      objectReference: {fileID: 0}
-    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
-        type: 3}
-      propertyPath: m_DetectableTags.Array.data[1]
       value: CorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
-      propertyPath: m_DetectableTags.Array.data[2]
+      propertyPath: m_DetectableTags.Array.data[1]
       value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4ad7c0bb19bd0b6498b23515872b945d,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_BehaviorType
@@ -3246,6 +3325,11 @@ PrefabInstance:
         type: 3}
       propertyPath: carId
       value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290775, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ad845c07adb3534c84dba1a3d122752, type: 3}
@@ -3354,24 +3438,23 @@ PrefabInstance:
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_DetectableTags.Array.data[0]
-      value: SideWall
-      objectReference: {fileID: 0}
-    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
-        type: 3}
-      propertyPath: m_DetectableTags.Array.data[1]
       value: CorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
-      propertyPath: m_DetectableTags.Array.data[2]
+      propertyPath: m_DetectableTags.Array.data[1]
       value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4ad7c0bb19bd0b6498b23515872b945d,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_BehaviorType
@@ -3391,6 +3474,11 @@ PrefabInstance:
         type: 3}
       propertyPath: carId
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290775, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ad845c07adb3534c84dba1a3d122752, type: 3}
@@ -3499,24 +3587,23 @@ PrefabInstance:
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_DetectableTags.Array.data[0]
-      value: SideWall
-      objectReference: {fileID: 0}
-    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
-        type: 3}
-      propertyPath: m_DetectableTags.Array.data[1]
       value: CorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
-      propertyPath: m_DetectableTags.Array.data[2]
+      propertyPath: m_DetectableTags.Array.data[1]
       value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4ad7c0bb19bd0b6498b23515872b945d,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_BehaviorType
@@ -3536,6 +3623,11 @@ PrefabInstance:
         type: 3}
       propertyPath: carId
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290775, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ad845c07adb3534c84dba1a3d122752, type: 3}
@@ -3731,24 +3823,23 @@ PrefabInstance:
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_DetectableTags.Array.data[0]
-      value: SideWall
-      objectReference: {fileID: 0}
-    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
-        type: 3}
-      propertyPath: m_DetectableTags.Array.data[1]
       value: CorrectCheckpointTag
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
-      propertyPath: m_DetectableTags.Array.data[2]
+      propertyPath: m_DetectableTags.Array.data[1]
       value: IncorrectCheckpointTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290768, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: m_DetectableTags.Array.data[2]
+      value: SideWall
       objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4ad7c0bb19bd0b6498b23515872b945d,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8935089543127290769, guid: 1ad845c07adb3534c84dba1a3d122752,
         type: 3}
       propertyPath: m_BehaviorType
@@ -3758,6 +3849,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BrainParameters.VectorObservationSize
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935089543127290775, guid: 1ad845c07adb3534c84dba1a3d122752,
+        type: 3}
+      propertyPath: ActionAdversary
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ad845c07adb3534c84dba1a3d122752, type: 3}

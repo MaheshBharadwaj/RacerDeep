@@ -4,10 +4,12 @@ using UnityEngine;
 using Unity.MLAgents;
 using Unity.MLAgents.Actuators;
 using Unity.MLAgents.Sensors;
+using Random = System.Random;
 public class CarDriverAI : Agent
 {
     [SerializeField] private TrackCheckpoints trackCheckpoints;
     [SerializeField] private Transform spawnPosition;
+    [SerializeField] private float ActionAdversary;
     private int carId;
     private TrailRenderer trailRenderer;
     //public int MaxStep;
@@ -56,7 +58,7 @@ public class CarDriverAI : Agent
     {
         if (this.carId == carId)
         {
-            Debug.Log("Correct Checkpoint: +1f");
+            // Debug.Log("Correct Checkpoint: +1f");
             //if (GetCumulativeReward() < 0)
             //    SetReward(+1f);
             //else
@@ -66,7 +68,7 @@ public class CarDriverAI : Agent
         }
         else
         {
-            Debug.Log("Not my business" + carId + " " + this.carId);
+            // Debug.Log("Not my business" + carId + " " + this.carId);
         }
 
     }
@@ -74,13 +76,13 @@ public class CarDriverAI : Agent
     {
         if (this.carId == carId)
         {
-            Debug.Log("Incorrect Checkpoint: -1f");
+            // Debug.Log("Incorrect Checkpoint: -1f");
             AddReward(-1f);
             CheckRewardThresh();
         }
         else
         {
-            Debug.Log("Not my business");
+            // Debug.Log("Not my business");
         }
 
     }
@@ -89,13 +91,13 @@ public class CarDriverAI : Agent
     {
         if (this.carId == carId)
         {
-            Debug.Log("Lap Completed: +20f");
+            // Debug.Log("Lap Completed: +20f");
             AddReward(+40f);
             EndEpisode();
         }
         else
         {
-            Debug.Log("Not my business");
+            // Debug.Log("Not my business");
         }
     }
 
@@ -158,6 +160,10 @@ public class CarDriverAI : Agent
         //AddReward(-0.1f);
 
         //Debug.Log("actions[0]: " + actions.DiscreteActions[0] + " actions[1]: " + actions.DiscreteActions[1]);
+
+        Random rnd = new Random();
+
+       
         switch (actions.DiscreteActions[0])
         {
             case 0: forwardAmount = 0f; break;
@@ -171,6 +177,11 @@ public class CarDriverAI : Agent
             case 2: turnAmount = this.switchTurningCases ? +1f : -1f; break;
         }
 
+        if (rnd.NextDouble()<ActionAdversary)
+        {
+            forwardAmount = rnd.Next(-1,2);
+            turnAmount = rnd.Next(-1,2);
+        }
 
         carDriver.SetInputs(forwardAmount, turnAmount);
     }
@@ -195,7 +206,7 @@ public class CarDriverAI : Agent
 
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("WE GOT A COLLISION");
+        // Debug.Log("WE GOT A COLLISION");
         AddReward(-0.02f * carDriver.GetSpeed() - 0.5f);
         if (this.checkRewardThreshToggle)
         {
@@ -207,8 +218,7 @@ public class CarDriverAI : Agent
 
     private void OnCollisionStay(Collision collision)
     {
-        Debug.Log("WE GOT A CONSISTENT COLLISION");
-        Debug.Log(collision.gameObject.tag);
+        // Debug.Log("WE GOT A CONSISTENT COLLISION");
         counter += 1;
         AddReward(this.collisionStayRewardToggle * (this.collisionStayRewardMultiplier * carDriver.GetSpeed() - 0.2f));
         if (this.checkRewardThreshToggle)

@@ -3,7 +3,7 @@
   "Assemblies": [
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-04-20T04:20:55.3897691Z"
+      "LastWriteTime": "2022-04-21T16:42:14.2449424Z"
     },
     {
       "FullName": "netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
@@ -19,7 +19,7 @@
     },
     {
       "FullName": "Unity.Barracuda, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-04-20T04:21:00.0071616Z"
+      "LastWriteTime": "2022-04-21T16:42:14.2364843Z"
     },
     {
       "FullName": "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
@@ -27,7 +27,7 @@
     },
     {
       "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-04-20T04:20:56.4322879Z"
+      "LastWriteTime": "2022-04-21T16:42:14.2642742Z"
     }
   ],
   "Functions": [
@@ -238,6 +238,19 @@
         1,
         2,
         6
+      ]
+    },
+    {
+      "FullName": "System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Unity.Barracuda.BurstCPUOps/TransposeJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "ModuleOptionsHash": 13433243922868730427,
+      "ModuleHash": "02b9b2f51222a0ce36b0cafc2a19b82a",
+      "LinkName": "F714E461648B8A08",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        5,
+        1,
+        2
       ]
     }
   ]
