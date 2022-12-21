@@ -191,7 +191,7 @@ PrefabInstance:
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: isAdversarialTraining
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -256,7 +256,7 @@ PrefabInstance:
     - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: ActionAdversary
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -335,7 +335,7 @@ PrefabInstance:
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: isAdversarialTraining
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -400,7 +400,7 @@ PrefabInstance:
     - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: ActionAdversary
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -479,7 +479,7 @@ PrefabInstance:
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: isAdversarialTraining
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -544,7 +544,7 @@ PrefabInstance:
     - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: ActionAdversary
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -623,7 +623,7 @@ PrefabInstance:
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: isAdversarialTraining
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -688,7 +688,7 @@ PrefabInstance:
     - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: ActionAdversary
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -767,7 +767,7 @@ PrefabInstance:
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: isAdversarialTraining
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -832,7 +832,7 @@ PrefabInstance:
     - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: ActionAdversary
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -911,7 +911,7 @@ PrefabInstance:
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: isAdversarialTraining
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -976,7 +976,7 @@ PrefabInstance:
     - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: ActionAdversary
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -1055,7 +1055,7 @@ PrefabInstance:
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: isAdversarialTraining
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -1120,7 +1120,7 @@ PrefabInstance:
     - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: ActionAdversary
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -1199,7 +1199,7 @@ PrefabInstance:
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: isAdversarialTraining
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -1264,7 +1264,7 @@ PrefabInstance:
     - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: ActionAdversary
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -1343,7 +1343,7 @@ PrefabInstance:
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: isAdversarialTraining
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -1408,7 +1408,7 @@ PrefabInstance:
     - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: ActionAdversary
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -1487,7 +1487,7 @@ PrefabInstance:
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: isAdversarialTraining
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -1552,7 +1552,7 @@ PrefabInstance:
     - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: ActionAdversary
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -1631,7 +1631,7 @@ PrefabInstance:
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: isAdversarialTraining
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -1696,7 +1696,7 @@ PrefabInstance:
     - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: ActionAdversary
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -1858,7 +1858,7 @@ PrefabInstance:
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: isAdversarialTraining
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -1923,7 +1923,7 @@ PrefabInstance:
     - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: ActionAdversary
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -2094,7 +2094,7 @@ PrefabInstance:
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: isAdversarialTraining
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -2159,7 +2159,7 @@ PrefabInstance:
     - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: ActionAdversary
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -2238,7 +2238,7 @@ PrefabInstance:
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: isAdversarialTraining
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -2303,7 +2303,7 @@ PrefabInstance:
     - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: ActionAdversary
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -2382,7 +2382,7 @@ PrefabInstance:
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: isAdversarialTraining
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -2447,7 +2447,7 @@ PrefabInstance:
     - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: ActionAdversary
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -2526,7 +2526,7 @@ PrefabInstance:
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: isAdversarialTraining
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -2591,7 +2591,7 @@ PrefabInstance:
     - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: ActionAdversary
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -2670,7 +2670,7 @@ PrefabInstance:
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: isAdversarialTraining
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -2735,7 +2735,7 @@ PrefabInstance:
     - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: ActionAdversary
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -2814,7 +2814,7 @@ PrefabInstance:
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: isAdversarialTraining
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -2879,7 +2879,7 @@ PrefabInstance:
     - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: ActionAdversary
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -2958,7 +2958,7 @@ PrefabInstance:
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: isAdversarialTraining
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -3023,7 +3023,7 @@ PrefabInstance:
     - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: ActionAdversary
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -3102,7 +3102,7 @@ PrefabInstance:
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: isAdversarialTraining
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -3167,7 +3167,7 @@ PrefabInstance:
     - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: ActionAdversary
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -3246,7 +3246,7 @@ PrefabInstance:
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: isAdversarialTraining
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -3311,7 +3311,7 @@ PrefabInstance:
     - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: ActionAdversary
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -3390,7 +3390,7 @@ PrefabInstance:
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: isAdversarialTraining
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -3455,7 +3455,7 @@ PrefabInstance:
     - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: ActionAdversary
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -3534,7 +3534,7 @@ PrefabInstance:
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: isAdversarialTraining
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -3599,7 +3599,7 @@ PrefabInstance:
     - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: ActionAdversary
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -3678,7 +3678,7 @@ PrefabInstance:
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: isAdversarialTraining
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3134691364009057244, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
@@ -3743,7 +3743,7 @@ PrefabInstance:
     - target: {fileID: 7407765358742940318, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}
       propertyPath: ActionAdversary
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7411995068232032041, guid: 0bfc513b5a44538409bdd7fcb0c49ea6,
         type: 3}

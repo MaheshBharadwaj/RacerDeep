@@ -68,7 +68,7 @@ public class CarDriverAI : Agent
         }
         else
         {
-            // Debug.Log("Not my business" + carId + " " + this.carId);
+            // Debug.Log("Not Correct" + carId + " " + this.carId);
         }
 
     }
@@ -82,7 +82,7 @@ public class CarDriverAI : Agent
         }
         else
         {
-            // Debug.Log("Not my business");
+            // Debug.Log("Not Correct");
         }
 
     }
